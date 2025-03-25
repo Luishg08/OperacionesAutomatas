@@ -1,0 +1,86 @@
+{
+    "estados": [
+        {
+            "nombre": "AD",
+            "inicial": true,
+            "final": false,
+            "transiciones": [
+                {
+                    "a": "BD",
+                    "simbolo": "0"
+                }
+            ]
+        },
+        {
+            "nombre": "AE",
+            "inicial": false,
+            "final": true,
+            "transiciones": [
+                {
+                    "a": "BD",
+                    "simbolo": "0"
+                }
+            ]
+        },
+        {
+            "nombre": "BD",
+            "inicial": false,
+            "final": false,
+            "transiciones": [
+                {
+                    "a": "CD",
+                    "simbolo": "0"
+                },
+                {
+                    "a": "AC",
+                    "simbolo": "1"
+                }
+            ]
+        },
+        {
+            "nombre": "BE",
+            "inicial": false,
+            "final": false,
+            "transiciones": [
+                {
+                    "a": "CD",
+                    "simbolo": "0"
+                },
+                {
+                    "a": "AD",
+                    "simbolo": "1"
+                }
+            ]
+        },
+        {
+            "nombre": "CD",
+            "inicial": false,
+            "final": false,
+            "transiciones": [
+                {
+                    "a": "CD",
+                    "simbolo": "0"
+                },
+                {
+                    "a": "CC",
+                    "simbolo": "1"
+                }
+            ]
+        },
+        {
+            "nombre": "CE",
+            "inicial": false,
+            "final": false,
+            "transiciones": [
+                {
+                    "a": "CD",
+                    "simbolo": "0"
+                },
+                {
+                    "a": "CD",
+                    "simbolo": "1"
+                }
+            ]
+        }
+    ]
+}

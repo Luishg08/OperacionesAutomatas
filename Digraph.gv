@@ -1,0 +1,20 @@
+digraph {
+	node [color=blue shape=circle size=3.0]
+	edge [width=2.0]
+	AD [fillcolor=green shape=circle style=filled]
+	AE [shape=doublecircle]
+	BD
+	BE
+	CD
+	CE
+	AD -> BD [label=0]
+	AE -> BD [label=0]
+	BD -> CD [label=0]
+	BD -> AC [label=1]
+	BE -> CD [label=0]
+	BE -> AD [label=1]
+	CD -> CD [label=0]
+	CD -> CC [label=1]
+	CE -> CD [label=0]
+	CE -> CD [label=1]
+}
